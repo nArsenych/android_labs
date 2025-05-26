@@ -1,0 +1,81 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/editName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ваше ім’я або коментар" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Оберіть тип піци:"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/checkPepperoni"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Пепероні" />
+
+        <CheckBox
+            android:id="@+id/checkMargarita"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Маргарита" />
+
+        <CheckBox
+            android:id="@+id/checkHawaiian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Гавайська" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Оберіть розмір:"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/checkSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Мала" />
+
+        <CheckBox
+            android:id="@+id/checkMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Середня" />
+
+        <CheckBox
+            android:id="@+id/checkLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Велика" />
+
+        <Button
+            android:id="@+id/buttonOk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="OK" />
+
+        <TextView
+            android:id="@+id/textResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textSize="16sp" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,40 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editName"
+            android:hint="Ім’я або коментар"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="Тип піци:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold" />
+
+        <CheckBox android:id="@+id/checkPepperoni" android:text="Пепероні" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <CheckBox android:id="@+id/checkMargarita" android:text="Маргарита" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <CheckBox android:id="@+id/checkHawaiian" android:text="Гавайська" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="Розмір:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp" />
+
+        <CheckBox android:id="@+id/checkSmall" android:text="Мала" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <CheckBox android:id="@+id/checkMedium" android:text="Середня" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <CheckBox android:id="@+id/checkLarge" android:text="Велика" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+        <Button android:id="@+id/buttonOk" android:text="OK" android:layout_marginTop="12dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</ScrollView>
